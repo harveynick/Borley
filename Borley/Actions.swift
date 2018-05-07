@@ -7,18 +7,18 @@
 
 import ReSwift
 
-struct AddBlogAction : Action {}
+struct AddBlogAction: Action {}
 
-struct LogInToBlogAction : Action {
-  let login : Login
+struct LogInToBlogAction: Action {
+  let login: Login
 }
 
-struct CancelLoginAction : Action {}
+struct CancelLoginAction: Action {}
 
-struct LoginSuceededAction : Action {
-  let blog : Blog
+struct LoginSuceededAction: Action {
+  let blog: Blog
 }
 
-struct LoginFailedAction : Action {
-  let message : String
+struct LoginFailedAction: Action {
+  let message: String
 }

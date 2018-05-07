@@ -6,14 +6,14 @@
 //
 
 struct Login {
-  let url : String
-  let email : String
-  let password : String
+  let url: String
+  let email: String
+  let password: String
 }
 
 struct Blog {
-  let name : String
-  let url : String
-  let accessToken : String
-  let refreshToken : String
+  let name: String
+  let url: String
+  let accessToken: String
+  let refreshToken: String
 }

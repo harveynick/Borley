@@ -8,12 +8,12 @@
 import ReSwift
 import ReSwiftRouter
 
-struct EntitiesState : StateType {
-  var blogs : [String:Blog]
-  var login : Login?
+struct EntitiesState: StateType {
+  var blogs: [String: Blog]
+  var login: Login?
 }
 
-struct AppState : StateType {
-  var entities : EntitiesState
+struct AppState: StateType {
+  var entities: EntitiesState
   var navigationState: NavigationState
 }

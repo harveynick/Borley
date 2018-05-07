@@ -112,6 +112,7 @@
 			buildConfigurationList = F9998EA2209909D300CF0C4D /* Build configuration list for PBXNativeTarget "Borley" */;
 			buildPhases = (
 				F9998E8C209909D200CF0C4D /* Sources */,
+				F9998EBA20A105BF00CF0C4D /* ShellScript */,
 				F9998E8D209909D200CF0C4D /* Frameworks */,
 				F9998E8E209909D200CF0C4D /* Resources */,
 				F9998EB0209E46E700CF0C4D /* ShellScript */,
@@ -207,6 +208,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings";
+		};
+		F9998EBA20A105BF00CF0C4D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\ncd Borley\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 

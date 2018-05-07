@@ -7,8 +7,8 @@
 
 import ReSwiftRouter
 
-let blogListRouteElement : RouteElementIdentifier = "BlogListRouteElement"
-let loginToBlogRouteElement : RouteElementIdentifier = "LoginToBlogRouteElement"
+let blogListRouteElement: RouteElementIdentifier = "BlogListRouteElement"
+let loginToBlogRouteElement: RouteElementIdentifier = "LoginToBlogRouteElement"
 
-let blogListRoute : Route = [blogListRouteElement]
-let loginToBlogRoute : Route = [blogListRouteElement, loginToBlogRouteElement]
+let blogListRoute: Route = [blogListRouteElement]
+let loginToBlogRoute: Route = [blogListRouteElement, loginToBlogRouteElement]
